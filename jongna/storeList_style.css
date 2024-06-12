@@ -1,0 +1,149 @@
+
+/*가게목록스타일*/
+
+.sect{
+	width: 1000px;
+	height: auto;
+	display: flex;
+ 	justify-content: space-around;
+
+}
+
+.storelist{
+	width: 850px;
+	height: auto;
+}
+
+
+/*카테고리, 정렬, 내 맛집 추가*/
+.ect {
+	display: flex;
+    justify-content: flex-start;
+}
+
+.sort_container {
+	display: inline-block;
+  	align-items: center;
+  	border-radius: 10px;
+ 	border: 3px solid #EA2626;
+ 	margin: 15px;
+ 	padding: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.current_category {
+	display: inline-block;
+  	align-items: center;
+  	border-radius: 10px;
+ 	margin: 15px;
+	background-color: #EA2626;
+ 	padding: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: white;
+	font-weight: bold;
+}
+
+.add_store {
+	display: inline-block;
+  	align-items: center;
+  	border-radius: 10px;
+ 	margin: 15px;
+ 	margin-left: auto;
+ 	padding: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: #514949;
+	color: white;
+	font-weight: bold;
+}
+
+/*페이지네이션*/
+span {
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+
+.storelist_li {
+  list-style-type: none;
+}
+
+.post-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  border-radius: 10px;
+  border: 2px solid #EA2626;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.post-name {
+  font-size: 25px;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.post-infoWrapper2{
+  flex-direction: row;
+  text-align: right;
+}
+
+.post-infoWrapper2 {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+.post-goodimage {
+  width: 20px; /* 적절한 크기로 설정 */
+  height: 30px; /* 적절한 크기로 설정 */
+  padding: 15px;
+}
+
+.post-score {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.post-adress {
+  font-size: 15px;
+  flex-direction: column;
+}
+
+.post-image {
+  width: 175px;
+  height: 175px;
+  padding: 15px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+}
+
+.prev-button:hover,
+.next-button:hover,
+.number-button:hover {
+  font-weight: 800;
+}
+
+.pagination-container {
+  user-select: none;
+  margin-bottom: 20px;
+}
+
+.selected {
+  font-weight: 800;
+  font-size: 1.1rem;
+  color: #EA2626;
+}

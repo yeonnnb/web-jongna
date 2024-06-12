@@ -1,0 +1,165 @@
+*{margin: 0px; padding: 0px;}
+ul{list-style: none;} /*이스트 앞에 . 제거*/
+a{text-decoration: none;}/*링크에 밑줄 제거*/
+
+body{/*화면 전체 중앙정렬*/
+	display: flex;
+	align-items: center;
+	/*height: 100vh;*/
+	flex-direction: column;
+	margin: 0;
+}
+
+.header{
+	width: 100%;
+	display: flex;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	justify-content: space-between;
+}
+.logo{
+	order: 1;
+	display: flex;
+	align-items:center;
+	width: 37%;
+}
+.top_menu{
+	order: 3;
+	width: 30%;
+}
+.search_zone{
+	order: 2;
+	display: flex;
+	align-items:center;
+	width: 33%;
+}
+
+
+.meddle_menu{
+	width: 100%;
+	height: 50px;
+	background-color: #EA2626;
+	
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.middle_menu_btn{
+	width: 100px;
+	height: 50px;
+        padding-top: 20px;
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+}
+.category-container{
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+}
+.category{
+	display: block;
+}
+
+.menu{
+	width: 650px;
+	height: 300px;
+
+	padding-bottom: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+}
+.banner{
+	width: 650px;
+	height: 300px;
+	mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+.banner .text{
+	height: 300px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+}
+
+.recommendation{
+	width: 850px;
+	height: 250px;
+
+	padding-bottom: 20px;	
+	display: flex;
+	flex-direction: column;
+}
+.recommendation_container{
+	width: 850px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	justify-content: space-around;
+}
+.re_restaurant{
+	width: 200px;
+	height: 150px;
+	background-color: white;
+
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+}
+.re_info{
+	width 200px;
+	height: 30px;
+	background-color:white;
+
+	display: flex;
+	padding-top: 5px;
+	justify-content: space-between;
+}
+
+.list_menu{
+	width: 1000px;
+	height: 400px;
+	background-color: purple;
+
+	display: flex;
+	flex-direction: column;
+}
+.re_list{
+	width: 1000px;
+	height: 80px;
+	background-color: white;
+}
+
+.footer{
+	position: relative;
+	translateY(0%);
+	bottom: 0px;
+	width: 100%;
+	height: 80px;
+	background-color: #3A3A3A;
+}
+.big_text{
+        font-size: 20;
+        font-weight: bold;
+}
+.text{
+        font-size: 16;
+	line-height: 1.4;
+}
+.date_text{
+	font-size: 13;
+	text-align: right;
+}
+.jjim_btn{
+        padding: 10px;
+        border: none;
+        font-size: 18px;
+        font-weight:bold;
+        color: white;
+        background-color: #EA2626;
+        cursor:pointer;
+}

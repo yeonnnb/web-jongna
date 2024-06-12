@@ -1,0 +1,158 @@
+*{margin: 0px; padding: 0px;}
+ul{list-style: none;} /*이스트 앞에 . 제거*/
+a{text-decoration: none;}/*링크에 밑줄 제거*/
+
+.members {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 플렉스 항목을 수평으로 중앙 정렬 */
+}
+
+.member_info {
+  display: flex;
+  align-items: center; /* 내용을 수직으로 중앙 정렬 */
+  justify-content: flex-end; /* 내용을 수평으로 오른쪽 정렬 */
+  margin-bottom: 25px;
+  text-align: right; /* 텍스트를 오른쪽 정렬 */
+  width: 100%; /* 부모 컨테이너의 전체 너비를 차지 */
+  margin-right: 320px ;
+}
+
+.member_info textarea {
+    margin-left: 10px;
+    height: 30px; 
+    text-align: center; 
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    padding: 0; 
+    border: 3px solid #EA2626;
+    font-size: 16px;
+    line-height: 30px; 
+    resize: none;
+    overflow: hidden;
+}
+.member_info textarea::placeholder {
+    text-align: center; 
+}
+
+
+.likeList_li {
+  list-style-type: none;
+}
+
+
+.post-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  border-radius: 10px;
+  border: 2px solid #d7d7d7;
+  margin: 15px;
+  position: relative; /* 자식 요소들의 절대 위치를 설정하기 위해 상대 위치로 설정 */
+
+    justify-content: space-between; /* 요소들을 가로로 공간을 최대한 활용하여 배치 */
+}
+
+
+.post-name {
+  font-size: 20px;
+  flex-direction: column;
+}
+
+.post-infoWrapper2{
+  flex-direction: row;
+  text-align: right;
+}
+
+
+
+.post-infoWrapper2 {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 20px;
+
+}
+
+
+.post-goodimage {
+  width: 15px; /* 적절한 크기로 설정 */
+  height: 25px; /* 적절한 크기로 설정 */
+  padding: 10px;
+}
+
+.post-score {
+  font-size: 20px;
+  padding-left: 15px;
+}
+
+.post-address {
+  font-size: 15px;
+  flex-direction: column;
+}
+
+.post-image {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.jjim_btn {
+        padding: 10px;
+        border: none;
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+        background-color: #EA2626;
+        cursor: pointer;
+        display: inline-block;
+        vertical-align: middle; /* 수직 정렬을 중간으로 설정 */
+        line-height: 1.5; /* 줄 높이를 동일하게 설정 */
+    }
+
+    .delete-list-btn {
+        padding: 10px;
+        border: none;
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+        background-color: #333;
+        cursor: pointer;
+        float: right; /* 오른쪽으로 이동 */
+        vertical-align: middle; /* 수직 정렬을 중간으로 설정 */
+        line-height: 1.5; /* 줄 높이를 동일하게 설정 */
+    }
+
+    .delete-form {
+        display: inline-block;
+        /*vertical-align: middle; */
+        margin-left: 10px; /* 왼쪽 여백을 추가 */
+        float: right; /* 오른쪽으로 이동 */
+    }
+
+.delete-store-btn {
+    padding: 5px 10px; /* 버튼 패딩 조정 */
+    border: none;
+    font-size: 10px; /* 버튼 폰트 크기 조정 */
+    font-weight: bold;
+    color: white;
+    background-color: #333;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.delete-store-form {
+    position: absolute; /* 절대 위치 설정 */
+    top: 0; /* 부모 요소 상단에 배치 */
+    right: 0; /* 부모 요소 오른쪽에 배치 */
+}
+
+.hidden {
+    display: none;
+}

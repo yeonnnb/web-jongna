@@ -1,0 +1,137 @@
+.info_box{
+	padding: 20px;
+	padding-left:25px;
+	padding-right:25px;
+}
+#store_img{
+	width: 650px;
+	height: 270px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	padding-right: 0px;
+	overflow: hidden;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.store_image_list{
+        width: 200px;
+        height: 200px;
+	object-fit: cover;
+}
+.store_img_btn{
+	font-size: 30px;
+	width: 30px;
+	height: 270px;
+	display: flex;
+	align-items: center;
+	cursor:pointer;
+}
+.store_review{
+	width: 550px;
+	background-color: #D9D9D9;
+	margin: auto;
+	padding: 25px;
+	border: 3px solid #EA2626;
+	border-radius: 10px;
+}
+.review_box{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#rateImg{
+	width: 250px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.rateIcon{
+	width: 30px;
+        height: 40px;
+}
+.R_btn{
+	font-weight: bold;
+	font-size: 14px;
+	text-decoration: underline;
+	cursor:pointer;
+}
+.R{
+	padding-left: 40px;
+	width: 620px;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+.jjimPopUp{
+	font-size: 16px;
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	background-color: white;
+	border: 2px solid black;
+	border-radius: 10px;
+	display: none;
+	padding: 20px;
+	padding-top: 10px;
+	z-index: 10;
+}
+
+.jjimPopUp.on {
+    display: block;
+}
+
+.check_box{
+	font-size: 15;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.close_btn{
+	font-size: 18;
+	font-weight: bold;
+	text-align: right;
+	cursor:pointer;
+	margin-bottom:10px;
+}
+
+.close_btn:hover { 
+    color: #EA2626;
+}
+
+
+.jjim_box{
+	display: flex;
+	padding: 5px;
+	cursor:pointer;
+}
+.jjim_box:hover { 
+    background : lightgrey;
+}
+
+.jjim_text{
+        font-size: 16px;
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        background-color: white;
+        border: 2px solid black;
+        border-radius: 10px;
+        display: none;
+        padding: 20px;
+	z-index: 11;
+}
+
+.jjim_text.on {
+    display: block;
+}
+#JFbtn{
+	border: none;
+	color: white;
+	background-color: #EA2626;
+	cursor: pointer;
+	padding-left: 5px;
+	padding-right: 5px;
+}
